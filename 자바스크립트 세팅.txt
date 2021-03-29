@@ -1,0 +1,37 @@
+javascript폴더 생성
+javascript폴더안에 app, source 폴더 생성
+app에 html - eclipse-javascript-2020-06-R-win32-x86_64 압출파일 복사 후 압축풀기
+마켓에 web developer tools 설치
+마켓에 node검색 nodeclipse.github.io 1.0.2설치
+node.js 프로젝트 myServer 생성
+myServer프로젝트 오른쪽클릭 StartExplorer - start shell here
+cmd창에 npm install express
+myServer 프로젝트에 script폴더 생성
+
+상단 window - Web - HTML Flies - Editor - Templates - New
+Name : New HTML5 + w3.css + js
+Description : New HTML5 with w3.css & js
+context : New HTML
+
+<Pattern>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="${encoding}">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../../css/w3.css">
+<link rel="stylesheet" type="text/css" href="../../css/user.css">
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+${cursor}
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
